@@ -1,0 +1,558 @@
+@import '~antd/dist/antd.css';
+
+body {
+  box-sizing: border-box;
+}
+
+
+
+
+.headerTitle {
+  
+text-shadow:2px 2px 4px #000000;
+letter-spacing: 1px;
+}
+
+.ant-layout {
+  background-color: white !important;
+}
+
+
+.ant-layout-header {
+  box-shadow: 0 8px 6px -6px lightgrey !important;
+  width: 100%;
+  height: 50px;
+  z-index: 90;
+  
+  
+
+
+
+
+  
+}
+
+
+/* Search Button */
+
+.ant-input {
+  height: 25px !important;
+  outline:none !important;
+  border: none !important;
+}
+
+.ant-menu-horizontal {
+  border: none;
+}
+.ant-menu-horizontal > .ant-menu-item {
+  border-bottom: none;
+  cursor: pointer;
+}
+
+.ant-menu-horizontal > .ant-menu-item:hover {
+   border-bottom: none !important;
+}
+
+
+.ant-drawer-content-wrapper {
+
+  width: 400px !important;
+ 
+ 
+
+}
+
+.ant-drawer-header {
+  background-color: #1890ff;
+  border-radius: 0;
+  
+}
+.ant-drawer-title {
+  color: #fff;
+}
+
+ .fixHeader{
+   position: fixed;
+   width: 100%;
+   top: 0;
+   display: block;
+   z-index: 1;
+   /* margin-bottom: 80px; */
+ }
+
+ /* .ant-layout-sider-children {
+  background-color: aquamarine!important;
+} */
+
+
+.Sidebar {
+  /* box-shadow: 7px 0 4px -2px rgb(88, 87, 87); */
+}
+.Sidebar a {
+  display: block;
+  color: rgb(242, 243, 243);
+  padding: 15px 15px 15px 20px;  
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+ 
+}
+
+
+
+.Sidebar a:hover {
+  background-color: #5f948c;
+  color: white;
+  display: block;
+ 
+}
+
+.Sidebar .fa {
+  color: rgb(213, 227, 231);
+  margin-right: 7px;
+}
+
+
+.Sidebar {
+  /* background-color: rgb(24, 59, 124); */
+  height: 100%;
+  display: block;
+  text-align: left;
+  margin-top: 0px;
+  overflow-x: hidden;
+  transition: 0.1s;
+  font-family: Arial, Helvetica, sans-serif;
+
+ 
+ 
+}
+
+.Sidebar a.active {
+  background-color: #334d96;
+  color: white;
+  padding: 2px;
+}
+
+.Sidebar .closebtn {
+  position: absolute;
+  top: 11px;
+  right: 10px;
+  font-size: 15px;
+  margin-bottom: 20px;
+  
+  
+}
+
+/* .item1, .item2, .item3, .item4, .item5 {
+  position: relative;
+  
+}  */
+
+/* :target {
+  display: block !important;
+  
+}
+
+
+
+#smenu1, #smenu2, #smenu3, #smenu4, #smenu5 {
+  display: none;
+  background-color: #504e4e;
+  min-width: 290px;
+  min-height: 110px;
+  position: relative;
+  left: 0%;
+  z-index: 1;
+  transition-delay: 1s;
+  
+  
+
+}
+
+#smenu1 a, #smenu2 a, #smenu3 a, #smenu4 a, #smenu5 a {
+
+  color: white;
+  padding: 12px 43px;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  font-size: 13px;
+
+}
+
+#smenu1 a:checked, #smenu2 a:checked, #smenu3 a:checked, #smenu4 a:checked, #smenu5 a:checked {
+  background-color: tomato;
+} */
+
+.fa-caret-down {
+  position: absolute;
+  left: 90%;
+  
+}
+
+
+
+.dropdown{
+  position: relative;
+  display: block;
+  font-size: 16px;
+  color: rgb(213, 227, 231);
+  text-align: left;
+  /* box-shadow: 2px 2px 5px #385351; */
+
+ 
+}
+
+/**
+  Hide the checkbox itself. Checking and unchecking 
+  it we will be done via the label element.
+*/
+
+input[type=checkbox]{
+  display: none;
+}
+
+/* Click to expand button */
+
+.dropdown > label{
+  box-sizing: border-box;
+  display: block;
+  min-width: 290px;
+  /* padding: 15px 43px; */
+
+  padding: 10px 22px;
+  font-size: 15px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin-bottom: 30px;
+ 
+}
+
+
+.smenu1, .smenu2, .smenu3, .smenu4, .smenu5 {
+
+  display: none;
+  /* background-color:  #507e77; */
+  min-width: 290px;
+  height: 110px;
+  margin-top:  -7px;
+  /* box-shadow: 2px 2px 5px #385351; */
+
+ 
+
+
+
+  
+}
+
+.smenu1 a, .smenu2 a, .smenu3 a, .smenu4 a, .smenu5 a, .smenu6 a {
+  display: block;
+  color: rgb(235, 230, 230);
+  padding: 14px 47px;
+  text-decoration: none;
+  transition: height ease-in-out 500ms;
+
+
+
+}
+
+.myCard1{
+  /* background: linear-gradient(to left, #7f9abe, #687a9c ); */
+  background:white;
+  color:black;
+}
+
+.myCard2 {
+  /* background: linear-gradient(to right,  #ce5252, #db6954); */
+  background:white;
+}
+
+.myCard3 {
+  /* background: linear-gradient(to right, #4ba550, #6baa6e ) */
+  background:white;
+}
+
+.myCard4{
+  /* background: linear-gradient(to right, #717270, #8c8f8e) */
+  background:white;
+
+}
+
+
+.myCard h5 {
+  color:#595959 !important;
+  line-height: 1.5em !important;  
+  
+}
+
+.navbar__link--active {
+  /* background-color:   #578881; */
+  color: white;
+}
+
+/**
+
+  By using the Following-sibling selector (~),
+  we can target elements positioned after our checkbox in the DOM tree.
+
+  With the state pseudo selector (:checked),
+  we can make changes depending on the state of the checkbox.
+
+  Using this combination of selectors
+  allows to change the color of the label
+  and show the list of items
+  only when the checkbox is checked.
+
+*/
+
+input[type=checkbox]:hover ~ label {
+  /* background-color: #507e77;  */
+ 
+}
+
+input[type=checkbox]:checked ~ label {
+  /* background-color: #507e77;   */
+  color: white; 
+}
+
+input[type=checkbox]:checked ~ .smenu1 {
+  display: block;
+
+ 
+}
+
+input[type="checkbox"]:checked ~  .smenu2 {
+  display: block;
+}
+
+input[type="checkbox"]:checked ~  .smenu3 {
+  display: block;
+}
+
+input[type="checkbox"]:checked ~  .smenu4 {
+  display: block;
+}
+
+input[type="checkbox"]:checked ~  .smenu5 {
+  display: block;
+}
+
+
+
+
+
+.ant-card {
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)  */
+}
+
+
+.ant-table-thead > tr > th.ant-table-column-has-actions.ant-table-column-has-filters .ant-table-filter-icon{
+
+  color: red !important;
+
+}
+
+/* 
+.ant-table-thead > tr > th, .ant-table-tbody > tr > td {
+  padding: 32px 32px !important;
+} */
+
+.ant-table-body {
+  width: 100% !important;
+}
+
+
+/* Chart */
+
+.chart {
+   
+ 
+  height: 50vh !important;
+  width: 100% !important;
+  
+  }
+
+ #FeeChart > .ant-card-bordered {
+    border:none !important;
+  }
+
+  .ant-card-head .ant-tabs-bar {
+    border-bottom: 1px solid #2f353a !important;
+}
+
+
+
+  .ant-tabs-nav-container {
+    
+   background-color: white;  
+  }
+
+  .ant-tabs-nav .ant-tabs-tab-active {
+    color: black !important;
+    font-weight: 600;
+}
+
+.ant-tabs-nav {
+  color:#595959 !important;
+}
+
+  .navbar-toggler-icon {
+    height: 0.5em !important;
+    width: 0.5em !important;
+  }
+
+
+  .myNavbar {
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 9px #888585;
+   
+  }
+
+  .nav-item > a {
+    color: rgba(255, 255, 255, 0.76) !important;
+    font-size: 17px;
+    padding: 12px 12px !important;
+    display: block;
+ 
+     
+    
+  }
+
+  .nav-item > a:hover {
+  
+    background-color: rgb(17, 17, 17);
+    color: rgb(250, 247, 243);
+    
+    display: block;
+  }
+
+
+
+li {
+ 
+  display: block;
+  font-family: Arial;
+}
+
+
+
+
+.theme1 {
+  background-color: #ffc53d ;
+}
+.theme2 {
+  background-color: #85a5ff ;
+}
+.theme3 {
+  background-color: #36cfc9 ;
+}
+.theme4 {
+  background-color: #a7e9af ;
+}
+
+.theme5 {
+  background-color: #FFBABA;
+}
+
+
+@media screen and (max-width: 768px) {
+  .column {
+    width: 100%;
+    display: block !important;
+    margin-bottom: 20px;
+
+    
+  }
+
+
+
+
+ 
+
+  .ant-btn {
+    padding: 10px 10px;
+    font-size: 10px;
+  }
+
+ .Sidebar {
+  
+  display: none !important;
+  
+ }
+
+  .ant-layout-sider {
+    
+    display: none !important;
+  }
+
+ 
+
+}
+
+.avatar-uploader > .ant-upload {
+  width: 228px;
+  height: 228px;
+}
+
+ 
+@media screen and (max-width: 568px) {
+
+ 
+ 
+
+
+
+  
+
+  .ant-layout-sider{
+
+    display: none;
+  }
+  
+
+}
+
+@media screen and (min-width:768px) {
+  .myNavbar{
+    display: none;
+  }
+}
+
+
+@media screen and (max-width:768px ) {
+
+  Header {
+    display: none ;
+
+  }
+  .ant-layout-sider{
+
+    display: none !important;
+  }
+  .Sidebar {
+    display: none!important;
+  }
+
+
+
+.ant-table-thead > tr > th, .ant-table-tbody > tr > td {
+ padding: 16px 16px;
+
+}
+
+
+}
+
+
+
+
+
+
+@media screen and (max-width:414px ) {
+
+  
+
+
+}

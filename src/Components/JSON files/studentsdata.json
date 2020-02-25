@@ -1,0 +1,74 @@
+[
+    {
+        "id": "1",
+        "name": "Kristi",
+        "gender": "Female",
+        "class": "6",
+        "year_of_birth": "2006"
+    },
+    {
+        "id": "2",
+        "name": "Christopher",
+        "gender": "Male",
+        "class": "6",
+        "year_of_birth": "2006"
+    },
+    {
+        "id": "3",
+        "name": "Scott",
+        "gender": "Male",
+        "class": "9",
+        "year_of_birth": "2003"
+    },
+    {
+        "id": "4",
+        "name": "John",
+        "gender": "Male",
+        "class": "10",
+        "year_of_birth": "2002"
+    },
+    {
+        "id": "5",
+        "name": "Red",
+        "gender": "Male",
+        "class": "6",
+        "year_of_birth": "2006"
+    },
+    {
+        "id": "6",
+        "name": "David",
+        "gender": "Male",
+        "class": "4",
+        "year_of_birth": "2008"
+    },
+    {
+        "id": "7",
+        "name": "Sid",
+        "gender": "Male",
+        "class": "4",
+        "year_of_birth": "2008"
+    },
+    {
+        "id": "8",
+        "name": "Ted",
+        "gender": "Male",
+        "class": "10",
+        "year_of_birth": "2000"
+    },
+    {
+        "id": "9",
+        "name": "William",
+        "gender": "Male",
+        "class": "10",
+        "year_of_birth": "2000"
+    },
+    {
+        "id": "10",
+        "name": "Brian",
+        "gender": "Male",
+        "class": "10",
+        "year_of_birth": "2000"
+    }
+
+    
+]
